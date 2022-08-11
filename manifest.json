@@ -1,0 +1,23 @@
+{
+  "name": "INARA日本語化",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "ja",
+  "content_scripts": [{
+    "matches": ["*://inara.cz/*"],
+    "run_at": "document_idle",
+    "js": [
+      "main.js"
+    ]
+  }],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "lang/config.json",
+        "lang/ja/*.json"
+      ],
+      "matches": ["*://inara.cz/*"]
+    }
+  ]
+}

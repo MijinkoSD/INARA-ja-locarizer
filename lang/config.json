@@ -1,0 +1,11 @@
+[
+  {
+    "patterns": ["."],
+    "files": ["_common.json"]
+  },
+  {
+    "patterns": ["^/nearest"],
+    "files": ["nearst.json"],
+    "description": "説明"
+  }
+]

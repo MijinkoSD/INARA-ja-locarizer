@@ -1,0 +1,6 @@
+[
+  {
+    "query": ".sidemenubar .sidemenuitem:nth-child(1) a",
+    "replace": "近所"
+  }
+]
