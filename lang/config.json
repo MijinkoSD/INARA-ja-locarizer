@@ -2,11 +2,19 @@
   {
     "patterns": ["^/elite/.*"],
     "files": ["_common.json"],
-    "description": "共通設定"
+    "description": "共通項目"
   },
   {
-    "patterns": ["^/nearest"],
-    "files": ["nearst.json"],
-    "description": "説明"
+    "patterns": ["^/elite/nearest(|\\-.+?)/"],
+    "files": ["nearest/_common.json"],
+    "description": "Search nearestページの共通項目"
+  },
+  {
+    "patterns": [
+      "^/elite/nearest/",
+      "^/elite/nearest-stations/"
+    ],
+    "files": ["nearest/stations.json"],
+    "description": "Search nearest > Stations"
   }
 ]

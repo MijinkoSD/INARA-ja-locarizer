@@ -928,7 +928,7 @@ async function readReplacerJSON(filename) {
         data.push({
             query: j.query,
             replace: j.replace,
-            pattern: j.pattern == null ? undefined : j.pattern
+            pattern: j.pattern === null ? undefined : j.pattern
         });
     }
     return data;

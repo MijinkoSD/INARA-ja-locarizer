@@ -1,0 +1,87 @@
+[
+  {
+    "query": ".breadcrumbs > .crumb:nth-child(2)",
+    "replace": "データ",
+    "description": "Data"
+  },
+  {
+    "query": ".breadcrumbs > .crumb:nth-child(3)",
+    "replace": "最寄りを検索",
+    "description": "Search nearest"
+  },
+  {
+    "query": ".maincontent0 > h1",
+    "replace": "最寄りを検索",
+    "description": "Search nearest"
+  },
+  {
+    "query": ".maincontent0 > .quickmenu > .quickmenu:nth-child(1)",
+    "replace": "ステーション",
+    "description": "Stations"
+  },
+  {
+    "query": ".maincontent0 > .quickmenu > .quickmenu:nth-child(2)",
+    "replace": "船とパーツ",
+    "description": "Outfitting"
+  },
+  {
+    "query": ".maincontent0 > .quickmenu > .quickmenu:nth-child(3)",
+    "replace": "Minor factions",
+    "description": "Minor factions"
+  },
+  {
+    "query": ".maincontent0 > .quickmenu > .quickmenu:nth-child(4)",
+    "replace": "星系",
+    "description": "Star systems"
+  },
+  {
+    "query": ".maincontent0 > .quickmenu > .quickmenu:nth-child(5)",
+    "replace": "星",
+    "description": "Bodies"
+  },
+  {
+    "query": ".maincontent0 > .quickmenu > .quickmenu:nth-child(6)",
+    "replace": "その他",
+    "description": "Misc"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .header",
+    "replace": "クイックサーチ",
+    "description": "Quick search"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-stations/?pi17=1&pi18=3&pi19=5000&pa1[]=25&formbrief=1\"]",
+    "replace": "最寄りのマテリアルトレーダー",
+    "description": "Nearest material traders"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-stations/?pi17=1&pi18=3&pi19=5000&pa1[]=26&formbrief=1\"]",
+    "replace": "最寄りのテックブローカー",
+    "description": "Nearest technology brokers"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-stations/?pi17=1&pi18=3&pi19=5000&pa1[]=18&formbrief=1\"]",
+    "replace": "最寄りの星間ファクター",
+    "description": "Nearest interstellar factors"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-stations/?pi15=10&pi16=14&pa1[9]=1&formbrief=1\"]",
+    "replace": "最寄りのスコーピオンSRVベンダー",
+    "description": "Nearest Scorpion SRV vendors"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-starsystems/?pi4=1&pa2[]=9&formbrief=1\"]",
+    "replace": "最寄りのアウトブレイク中のアナーキー星系",
+    "description": "Nearest anarchy systems in outbreak"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-stations/?pi15=12&formbrief=1\"]",
+    "replace": "破損したステーション",
+    "description": "Damaged stations"
+  },
+  {
+    "query": ".sidecontent0 > .subcontent0 > .tagcontainer > .tag[href=\"/elite/nearest-misc/?pi20=8&formbrief=1\"]",
+    "replace": "感染したナブビーコン",
+    "description": "Compromised nav beacons"
+  }
+]

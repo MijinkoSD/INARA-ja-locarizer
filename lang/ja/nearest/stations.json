@@ -1,0 +1,7 @@
+[
+  {
+    "query": ".incontent .formcolumn:nth-child(1) > .formelement:nth-child(1) > .formlabelside",
+    "replace": "付近の星系",
+    "description": "Near star system"
+  }
+]
