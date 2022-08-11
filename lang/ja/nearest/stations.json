@@ -1,7 +1,362 @@
 [
   {
-    "query": ".incontent .formcolumn:nth-child(1) > .formelement:nth-child(1) > .formlabelside",
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(1) > .formlabelside",
     "replace": "付近の星系",
     "description": "Near star system"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > .formlabelside",
+    "replace": "忠誠",
+    "description": "Allegiance"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option:first-child",
+    "replace": "未指定",
+    "description": "Any"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"0\"]",
+    "replace": "独立派",
+    "description": "Independent"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"1\"]",
+    "replace": "同盟",
+    "description": "Alliance"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"2\"]",
+    "replace": "帝国",
+    "description": "Empire"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"3\"]",
+    "replace": "連邦",
+    "description": "Federation"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"9\"]",
+    "replace": "海賊",
+    "description": "Pirate"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"10\"]",
+    "replace": "パイロット連盟",
+    "description": "Pilots Federation"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"20\"]",
+    "replace": "サーゴイド",
+    "description": "Thargoids"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(3) > select > option[value=\"30\"]",
+    "replace": "ガーディアン",
+    "description": "Guardians"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > .formlabelside",
+    "replace": "政治体制",
+    "description": "Government"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"0\"]",
+    "replace": "未指定",
+    "description": "Any"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"1\"]",
+    "replace": "無政府状態",
+    "description": "Anarchy"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"2\"]",
+    "replace": "植民地",
+    "description": "Colony"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"3\"]",
+    "replace": "共産制",
+    "description": "Communism"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"4\"]",
+    "replace": "連合体",
+    "description": "Confederacy"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"11\"]",
+    "replace": "協同組合",
+    "description": "Cooperative"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"5\"]",
+    "replace": "法人",
+    "description": "Corporate"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"6\"]",
+    "replace": "民主制",
+    "description": "Democracy"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"7\"]",
+    "replace": "独裁制",
+    "description": "Dictatorship"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"8\"]",
+    "replace": "封建制",
+    "description": "Feudal"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"9\"]",
+    "replace": "パトロネージュ",
+    "description": "Patronage"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"14\"]",
+    "replace": "流刑地",
+    "description": "Prison"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"12\"]",
+    "replace": "流刑植民地",
+    "description": "Prison Colony"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"10\"]",
+    "replace": "神権政治",
+    "description": "Theocracy"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"13\"]",
+    "replace": "エンジニア",
+    "description": "Engineer"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(4) > select > option[value=\"15\"]",
+    "replace": "私有",
+    "description": "Private Ownership"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > .formlabelside",
+    "replace": "経済体制",
+    "description": "Economy"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"0\"]",
+    "replace": "未指定",
+    "description": "Any"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"1\"]",
+    "replace": "農業",
+    "description": "Agriculture"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"3\"]",
+    "replace": "抽出",
+    "description": "Extraction"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"4\"]",
+    "replace": "工業",
+    "description": "Industrial"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"5\"]",
+    "replace": "ハイテク",
+    "description": "High Tech"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"10\"]",
+    "replace": "軍事",
+    "description": "Military"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"6\"]",
+    "replace": "精製",
+    "description": "Refinery"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"7\"]",
+    "replace": "サービス",
+    "description": "Service"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"8\"]",
+    "replace": "観光",
+    "description": "Tourism"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"9\"]",
+    "replace": "テラフォーミング",
+    "description": "Terraforming"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"11\"]",
+    "replace": "植民地",
+    "description": "Colony"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"12\"]",
+    "replace": "損傷",
+    "description": "Dameged"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"13\"]",
+    "replace": "修復",
+    "description": "Repair"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"14\"]",
+    "replace": "救援",
+    "description": "Rescue"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"15\"]",
+    "replace": "流刑地",
+    "description": "Prison"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"16\"]",
+    "replace": "民間企業",
+    "description": "Private Enterprise"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(5) > select > option[value=\"17\"]",
+    "replace": "エンジニア",
+    "description": "Engineer"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option:first-child",
+    "replace": "未指定",
+    "description": "Any"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > .formlabelside",
+    "replace": "ステーションの種類",
+    "description": "Station type"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option[value=\"19\"]",
+    "replace": "小惑星基地",
+    "description": "Asteroid Base"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option[value=\"14\"]",
+    "replace": "地上ポート",
+    "description": "Surface Port"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option[value=\"15\"]",
+    "replace": "地上ステーション",
+    "description": "Surface Station"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option[value=\"20\"]",
+    "replace": "メガシップ",
+    "description": "Megaship"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option[value=\"39\"]",
+    "replace": "フリートキャリア",
+    "description": "Fleet Carrier"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option",
+    "pattern": "^Starport",
+    "replace": "スターポート"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(2) > .formelement:nth-child(6) > select > option",
+    "pattern": "^Outpost",
+    "replace": "アウトポスト"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(1) > .formlabelside",
+    "replace": "または",
+    "description": "or"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(1) > select > option[value=\"0\"]",
+    "replace": "銀河内の地域で選択",
+    "description": "Select galactic region"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(1) > select > option[value=\"0\"]",
+    "replace": "銀河内の地域で選択",
+    "description": "Select galactic region"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(3) > .formlabelside",
+    "replace": "最小ランディングパッド",
+    "description": "Min. landing pad"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(3) > select > option[value=\"0\"]",
+    "replace": "未指定",
+    "description": "Any"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(3) > select > option[value=\"1\"]",
+    "replace": "小",
+    "description": "Small"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(3) > select > option[value=\"2\"]",
+    "replace": "中",
+    "description": "Midium"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(3) > select > option[value=\"3\"]",
+    "replace": "大",
+    "description": "Large"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(4) > .formlabelside",
+    "replace": "ステーションとの最大距離",
+    "description": "Max. station distance"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(4) > select > option[value=\"0\"]",
+    "replace": "未指定",
+    "description": "Any"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(5) > .formlabelside",
+    "replace": "地上のステーションを含めるか",
+    "description": "Use surface stations"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(5) > select > option[value=\"0\"]",
+    "replace": "含める（Odyssey限定のステーションも含む）",
+    "description": "Yes (with Odyssey stations)"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(5) > select > option[value=\"2\"]",
+    "replace": "含める（Odyssey限定のステーションは除く）",
+    "description": "Yes (exclude Odyssey stations)"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(5) > select > option[value=\"1\"]",
+    "replace": "含めない",
+    "description": "No"
+  },
+  {
+    "query": ".incontent form > .formcolumn:nth-child(3) > .formelement:nth-child(6) > .checkbox > label",
+    "replace": "フリートキャリアを除く",
+    "description": "Ignore fleet carriers"
+  },
+  {
+    "query": ".incontent form > .formelement:nth-child(5) > label",
+    "replace": "ステーションサービス",
+    "description": "Station services"
+  },
+  {
+    "query": ".incontent form > .blocktogglecontainer:nth-child(6) > .blocktoggletrigger",
+    "replace": "追加のオプションを表示  ",
+    "description": "View additional options"
   }
 ]
