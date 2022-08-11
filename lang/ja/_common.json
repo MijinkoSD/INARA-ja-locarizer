@@ -10,17 +10,17 @@
     "description": "CLOSE"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(2) a",
-    "replace": "サインイン",
-    "description": "SIGN IN"
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(2) > a",
+    "pattern": "^SIGN IN$",
+    "replace": "サインイン"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(3) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(3) > a",
     "replace": "閉じる",
     "description": "CLOSE"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > a",
     "replace": "ニュース",
     "description": "News"
   },
@@ -60,7 +60,7 @@
     "description": "Inara API"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > a",
     "replace": "銀河",
     "description": "Galaxy"
   },
@@ -135,7 +135,7 @@
     "description": "Statistics"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > a",
     "replace": "データ",
     "description": "Data"
   },
@@ -275,17 +275,47 @@
     "description": "Shipyard"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > a",
     "replace": "CMDR",
     "description": "Commanders"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(9) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > ul > li:nth-child(1) > a",
+    "replace": "CMDR",
+    "description": "Commander"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > ul > li:nth-child(2) > a",
+    "replace": "概要",
+    "description": "Overview"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > ul > li:nth-child(3) > a",
+    "replace": "ランクと評判",
+    "description": "Ranks and reputation"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > ul > li:nth-child(4) > a",
+    "replace": "残高と資産",
+    "description": "Credits and assets"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > ul > li:nth-child(5) > a",
+    "replace": "個人ログ",
+    "description": "Personal logs"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) > ul > li:nth-child(6) > a",
+    "replace": "個人設定",
+    "description": "Commander settings"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(9) > a",
     "replace": "ディスカッション",
     "description": "Discuss"
   },
   {
-    "query": ".mainmenu .stellarnav > ul > li:nth-child(10) a",
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(10) > a",
     "replace": "ギャラリー",
     "description": "Gallery"
   }
