@@ -65,7 +65,7 @@ async function readReplacerJSON(filename: string): Promise<replacerDefine[]> {
         query: j.query,
         replace: j.replace,
         pattern: (
-          j.pattern == null ? undefined : j.pattern
+          j.pattern === null ? undefined : j.pattern
         ),
       },
     );
