@@ -1,6 +1,292 @@
 [
   {
-    "query": ".sidemenubar .sidemenuitem:nth-child(1) a",
-    "replace": "近所"
+    "query": ".mainmenu .stellarnav > a:first-child",
+    "replace": "メニュー",
+    "description": "MENU"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > a",
+    "replace": "閉じる",
+    "description": "CLOSE"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(2) a",
+    "replace": "サインイン",
+    "description": "SIGN IN"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(3) a",
+    "replace": "閉じる",
+    "description": "CLOSE"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) a",
+    "replace": "ニュース",
+    "description": "News"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(1) > a",
+    "replace": "ニュースと記事",
+    "description": "News and articles"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(2) > a",
+    "replace": "概要",
+    "description": "Overview"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(3) > a",
+    "replace": "Galnet",
+    "description": "Galnet"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(4) > a",
+    "replace": "航空日誌",
+    "description": "Logbooks"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(5) > a",
+    "replace": "その他",
+    "description": "Misc"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(5) ul > li:nth-child(1) > a",
+    "replace": "INARAラジオプレーヤー",
+    "description": "Inara radio player"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(4) > ul > li:nth-child(5) ul > li:nth-child(2) > a",
+    "replace": "INARA API",
+    "description": "Inara API"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) a",
+    "replace": "銀河",
+    "description": "Galaxy"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(1) > a",
+    "replace": "銀河情報",
+    "description": "Galaxy"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(2) > a",
+    "replace": "概要",
+    "description": "Overview"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(3) > a",
+    "replace": "コミュニティゴール",
+    "description": "Community goals"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(4) > a",
+    "replace": "最新情報",
+    "description": "Bulletin board"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(5) > a",
+    "replace": "レポート",
+    "description": "Reports"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(6) > a",
+    "replace": "サーゴイドとの戦争",
+    "description": "Thargoid war"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(6) > ul > li:nth-child(1) > a",
+    "replace": "概要",
+    "description": "Overview"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(6) > ul > li:nth-child(2) > a",
+    "replace": "紛争中の地域",
+    "description": "Conflicts"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(6) > ul > li:nth-child(3) > a",
+    "replace": "攻撃を受けたステーション",
+    "description": "Damaged stations"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(7) > a",
+    "replace": "ランキング",
+    "description": "Rankings"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(7) > ul > li:nth-child(1) > a",
+    "replace": "全体ランキング",
+    "description": "Overall rankings"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(7) > ul > li:nth-child(2) > a",
+    "replace": "CQCランキング",
+    "description": "CQC rankings"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(7) > ul > li:nth-child(3) > a",
+    "replace": "上位10位",
+    "description": "Top tens"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(5) > ul > li:nth-child(7) > ul > li:nth-child(4) > a",
+    "replace": "統計",
+    "description": "Statistics"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) a",
+    "replace": "データ",
+    "description": "Data"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(1) > a",
+    "replace": "最寄りを検索",
+    "description": "Search nearest"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(1) > a .description",
+    "replace": "最寄りのステーション・星系・船・モジュール・武器などを検索します",
+    "description": "Find nearest stations, star systems, ships, modules, weapons and more"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(2) > a",
+    "replace": "交易ルート",
+    "description": "Trade routes"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(2) > a .description",
+    "replace": "最も利益の出る交易ルートを探します",
+    "description": "Get the most profitable trade routes"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(3) > a",
+    "replace": "商品",
+    "description": "Commodities"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(3) > a .description",
+    "replace": "最も適した商品の値段を調べます",
+    "description": "Get best commodity prices"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(4) > a",
+    "replace": "Components trading",
+    "description": "Components trading"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(4) > a .description",
+    "replace": "Find where to buy or sell engineering components",
+    "description": "Find where to buy or sell engineering components"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(5) > a",
+    "replace": "エンジニア改造",
+    "description": "Engineering"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(5) > ul > li:nth-child(1) > a",
+    "replace": "エンジニア",
+    "description": "Engineers"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(5) > ul > li:nth-child(2) > a",
+    "replace": "ブループリント・アップグレード",
+    "description": "Blueprints & upgrades"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(5) > ul > li:nth-child(3) > a",
+    "replace": "コンポーネント",
+    "description": "Components"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(5) > ul > li:nth-child(4) > a",
+    "replace": "実験的効果の付与",
+    "description": "Experimental effects"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(5) > ul > li:nth-child(5) > a",
+    "replace": "マテリアル合成",
+    "description": "Synthesis"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(6) > a",
+    "replace": "星系とステーション",
+    "description": "Systems and stations"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(6) > ul > li:nth-child(1) > a",
+    "replace": "星系",
+    "description": "Star system"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(6) > ul > li:nth-child(2) > a",
+    "replace": "ステーション",
+    "description": "Stations"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(6) > ul > li:nth-child(3) > a",
+    "replace": "コロニアへの架け橋",
+    "description": "Colonia bridge"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(7) > a",
+    "replace": "派閥",
+    "description": "Factions"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(7) > ul > li:nth-child(1) > a",
+    "replace": "Powers",
+    "description": "Powers"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(7) > ul > li:nth-child(2) > a",
+    "replace": "小規模派閥",
+    "description": "Minor factions"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(7) > ul > li:nth-child(3) > a",
+    "replace": "プレイヤー派閥",
+    "description": "Player factions"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(7) > ul > li:nth-child(4) > a",
+    "replace": "Inara Nexus",
+    "description": "Inara Nexus"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(8) > a",
+    "replace": "船の改造",
+    "description": "Outfitting"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(8) > ul > li:nth-child(1) > a",
+    "replace": "モジュール・装備",
+    "description": "Modules & equipment"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(8) > ul > li:nth-child(2) > a",
+    "replace": "テックブローカー",
+    "description": "Technology broker"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(6) > ul > li:nth-child(8) > ul > li:nth-child(3) > a",
+    "replace": "販売中の船",
+    "description": "Shipyard"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(7) a",
+    "replace": "CMDR",
+    "description": "Commanders"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(9) a",
+    "replace": "ディスカッション",
+    "description": "Discuss"
+  },
+  {
+    "query": ".mainmenu .stellarnav > ul > li:nth-child(10) a",
+    "replace": "ギャラリー",
+    "description": "Gallery"
   }
 ]

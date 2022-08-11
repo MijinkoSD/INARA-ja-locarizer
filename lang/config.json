@@ -1,7 +1,8 @@
 [
   {
-    "patterns": ["."],
-    "files": ["_common.json"]
+    "patterns": ["^/elite/.*"],
+    "files": ["_common.json"],
+    "description": "共通設定"
   },
   {
     "patterns": ["^/nearest"],

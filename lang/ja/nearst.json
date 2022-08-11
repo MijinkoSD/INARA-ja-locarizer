@@ -1,7 +1,7 @@
 [
-  {
-    "query": ".sidemenubar .sidemenuitem:nth-child(3) a",
-    "pattern": "r..",
-    "replace": "あああ"
-  }
+  // {
+  //   "query": ".sidemenubar .sidemenuitem:nth-child(3) a",
+  //   "pattern": "r..",
+  //   "replace": "あああ"
+  // }
 ]
