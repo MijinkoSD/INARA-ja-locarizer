@@ -28,7 +28,6 @@ export function readJSON(filename: string): Promise<any> {
   const url: string = browser.runtime.getURL(filename);
   const data = fetch(url)
     .then((r) => r.json())
-    // .then(data => console.log(data))
     .catch(() => console.error(`[${filename}]の読み込みに失敗しました。`));
   return data;
 }

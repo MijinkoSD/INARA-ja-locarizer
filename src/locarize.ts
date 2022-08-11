@@ -48,7 +48,6 @@ export function locarize({ query, replace, pattern }: replacerDefine) {
         new RegExp(pattern),
         replace,
       );
-      console.log(`textContent: ${text.textContent}`)
     }
   });
 }

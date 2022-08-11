@@ -914,12 +914,10 @@ function locarize({ query , replace , pattern  }) {
     doms.forEach((d)=>{
         const text = getTextNode(d);
         if (text === undefined) return;
-        console.log(`{query: ${query}, replace: ${replace}, pattern: ${pattern}}`);
         if (pattern === undefined) {
             text.textContent = replace;
         } else if (text.textContent !== null) {
             text.textContent = text.textContent.replace(new RegExp(pattern), replace);
-            console.log(`textContent: ${text.textContent}`);
         }
     });
 }
@@ -965,7 +963,6 @@ async function readPageConfig(filename = PAGE_CONFIG_PATH) {
 async function main() {
     const files = await searchLangfileByURI(location.pathname);
     for (const f of files){
-        console.log(`[${f}]を読み込みました`);
         await locarizeByJSON(f);
     }
 }
