@@ -9,7 +9,7 @@ const PAGE_CONFIG_PATH = "/lang/config.json";
  * @param patterns langfileを適用するURIの正規表現
  * @param files langfileの配列
  */
-export interface langConfig {
+export interface LangConfig {
   patterns: string[];
   files: string[];
 }
@@ -40,9 +40,9 @@ export async function searchLangfileByURI(uri: string): Promise<string[]> {
  */
 async function readPageConfig(
   filename: string = PAGE_CONFIG_PATH,
-): Promise<langConfig[]> {
+): Promise<LangConfig[]> {
   const json = await readJSON(filename);
-  const config: langConfig[] = [];
+  const config: LangConfig[] = [];
   for (const data of json) {
     config.push({
       patterns: data.patterns,

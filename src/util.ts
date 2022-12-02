@@ -9,13 +9,15 @@ import browser from "https://esm.sh/webextension-polyfill@0.9.0";
 /**
  * 直下の子要素の中からテキストの要素だけを返します
  */
-export function getTextNode(element: HTMLElement): ChildNode | undefined {
+export function getTextNode(element: HTMLElement): ChildNode[] {
   const nodes = Array.from(element.childNodes);
+  const textNodes: ChildNode[] = [];
   for (const node of nodes) {
     if (node.nodeName == "#text") {
-      return node;
+      textNodes.push(node);
     }
   }
+  return textNodes;
 }
 
 /**
